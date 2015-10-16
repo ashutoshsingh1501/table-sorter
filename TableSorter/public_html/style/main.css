@@ -1,0 +1,41 @@
+body{
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    text-align: center;
+    color:#333333;
+    background-color: rgb(227, 232, 235);
+    /* align-items: center; */
+}
+
+#main_container {
+    width: 290px;
+    height: 365px;
+    padding: 10px;
+}
+
+table {
+    border-width: 2px;
+    border-color: #0E0606;
+}
+
+thead th, thead td, button {
+    background:#b5cfd2 url('images/cell-blue.jpg');
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #E3E8EB;
+}
+
+tbody td {
+    background:#dcddc0 url('images/cell-grey.jpg');
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #E3E8EB;
+}
+
+button{
+    color:#333333;
+    float:right;
+    margin-right: 10px;
+}

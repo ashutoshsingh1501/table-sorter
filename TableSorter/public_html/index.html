@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sortable Table</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/main.css">
+    </head>
+    <body>
+        <div id="main_container">
+            <div id="table_container">
+                <table id="my_table">
+                    <thead>
+                        <tr><th  onclick="SortTable(1, 'T');">Continent</th>
+                            <th  onclick="SortTable(2, 'T');">Area</th>
+                            <th  onclick="SortTable(3, 'N');">Population</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>North America</td><td>3</td><td>4</td></tr>
+                        <tr><td>South America</td><td>4</td><td>5</td></tr>
+                        <tr><td>Antarctica</td><td>5</td><td>7</td></tr>
+                        <tr><td>Africa</td><td>2</td><td>2</td></tr>
+                        <tr><td>Europe</td><td>6</td><td>3</td></tr>
+                        <tr><td>Asia</td><td>1</td><td>1</td></tr>
+                        <tr><td>Australia</td><td>7</td><td>6</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="footer">
+                <button type="button" onclick="logData();">Submit</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="script/tableSorter.js" ></script>
+    </body>
+</html>
